@@ -1,1 +1,10 @@
 /node_modules
+
+.cache/
+
+.cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
