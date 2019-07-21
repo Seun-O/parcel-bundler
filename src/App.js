@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Search from './components/Search';
 
 const App = () => {
-    return (
-        <div>
-            <h1>Hello World!</h1>
-        </div>
-    )
-}
+	const eggPlant = 'Egg Plant';
+	return (
+		<div>
+			<h1>Hello World!</h1>
+			<Search />
+		</div>
+	);
+};
 
-export default App
+export default App;
